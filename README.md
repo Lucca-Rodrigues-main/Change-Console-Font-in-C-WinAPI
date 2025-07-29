@@ -19,6 +19,17 @@ A janela do IDE é um ambiente limitado para alterações que afetam o console d
 
 ### **Como Usar**
 1. Chame `GuardaFonte()` para salvar a configuração atual.
-2. Modifique a estrutura `FONTE` com os parâmetros desejados (ex: `Consolas`, tamanho 8x16).
+2. Modifique a estrutura `FONTE` com os parâmetros desejados.
 3. Use `AlteraFonte()` para aplicar as mudanças.
 4. Para restaurar, chame `RestauraFonte()`.
+
+---
+
+### **Exemplo**
+Fonte original CP437:
+
+<img width="263" height="177" alt="image" src="https://github.com/user-attachments/assets/99c2b380-4970-46fe-be8a-e95c8aea04dd" />
+
+Alteração para Consolas:
+
+<img width="297" height="291" alt="image" src="https://github.com/user-attachments/assets/373f4490-7004-4699-9325-4793bf87df75" />
